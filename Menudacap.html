@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Học menu đa ccaps với class và id</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <!--Header-->
+    <div id="header">
+        <div>
+            <h1>Học CLASS và ID</h1>
+            <p>Học menu đa cấp</p>
+        </div>
+        <!--Menu-->
+        <div id="menu">
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li>
+                    <a href="">Sản phẩm</a>
+                    <ul>
+                        <li><a href="">Điện thoại</a></li>
+                        <li>
+                            <a href="">Laptop</a>
+                            <ul>
+                                <li><a href="">Dell</a></li>
+                                <li><a href="">HP</a></li>
+                                <li><a href="">ASUS</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Phụ kiện</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Dịch vụ</a></li>
+                <li><a href="">Tin tức</a></li>
+                <li><a href="">Liên hệ</a></li>
+            </ul>
+        </div>
+        </div>
+    <!--Nội dung-->
+    <div id="main">
+        <div id="content" class="box">
+        <h2 class="title">Nội dung trang web</h2>
+        <p>Đây là nội dung chính của trang web
+            Nó sử dụng <b>id="content"</b> để định vị bố cục
+            <b>class="box"</b> để định dạng khung trắng
+        </p>
+        <p>
+            Thanh menu phía trên <b>menu đa cấp</b>
+            khi trỏ chuột vào sẽ tự động hiện menu con ra
+        </p>
+        <a href="" class="btn">Xem thêm</a>
+    </div>
+    <div id="sidebar" class="box">
+        <h3 class="title">Sidebar</h3>
+        <p>
+            Đây là phần sidebar, Cũng dung class <b>.box</b>
+            Để có cùng phong cách với nội dung chính
+        </p>
+        <img src="assets/img/levono.png" alt="">
+        <a href="" class="btn">Liên hệ</a>
+    </div>
+    </div>
+    <!--footer-->
+    <div id="footer">
+        <p>© 2025 - Vũ Tiến Tài</p>
+    </div>
+</body>
+</html>
